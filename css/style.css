@@ -1,0 +1,230 @@
+body {
+  color: #555;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+h3 {
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  z-index: 10;
+}
+.inner {
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.clearfix:before,
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.fa-bolt {
+  float: left;
+  color: #5e5e5e;
+  font-size: 60px;
+  opacity: .9;
+}
+.fa-bolt:hover { opacity: 1; }
+.hamberger {
+  float: right;
+  margin-top: 8px;
+  padding: 9px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #ccc;
+  border-radius: 1px;
+}
+.bar:not(:first-child) { margin-top: 4px; }
+.hamberger:hover { background-color: #ddd; }
+.contact__btn { display: none; }
+.js-area {
+  display: none;
+  padding: 20px 15px;
+  font-size: 16px;
+  background-color: #74cfae;
+  color: #fff;
+}
+.keyvisual { padding: 340px 0; }
+.keyvisual__inner { font-family: "Raleway"; }
+.site__name {
+  margin-bottom: 20px;
+  font-size: 90px;
+  color: #74cfae;
+  letter-spacing: 3px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.site__name__sub {
+  font-size: 30px;
+  color: #c0c0c0;
+  line-height: 1.1;
+  font-weight: 400;
+}
+.ability {
+  padding: 50px 0 25px;
+  background-color: #74cfae;
+}
+.ability__title {
+  margin: 20px 0 35px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+}
+.ability__disc {
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 400;
+  word-break: keep-all;
+  font-family: "Lato";
+}
+.work {
+  padding: 60px 0px 75px;
+  text-align: center;
+}
+.grid { font-size: 0; }
+.mt80 { margin-top: 80px; }
+.grid__col__4 {
+  width: 300px;
+  margin: 0 auto;
+}
+.thumb__link { opacity: .7; }
+.thumb__link:hover { opacity: 1; }
+.mt40 { margin-top: 40px; }
+.work__bottom__txt {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+  font-family: "Lato";
+}
+.btn {
+  color: #fff;
+  background-color: #74cfae;
+  font-family: "Lato";
+}
+.work__bottom__btn {
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+  background-color: #74cfae;
+}
+.work__bottom__btn:hover { color: #555; }
+.skills {
+  padding: 70px 15px 8px;
+  background-color: #4e4e4e;
+}
+.skill__title { color: #fff; }
+.skill__list > li { margin-bottom: 95px; }
+.geuge {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.skill__type {
+  margin-top: 17px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.social { padding: 200px 15px; }
+.is-green {
+  padding: 30px;
+  font-size: 50px;
+  color: #74cfae;
+}
+.social__link:hover { background-color: #fff; }
+footer {
+  padding: 20px 0 25px;
+  background-color: #74cfae;
+}
+.crafted__by {
+  color: #fff;
+  text-align: right;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Lato";
+}
+.fa-heart { padding: 0 3px; }
+@media screen and (min-width: 768px) {
+  .inner { width: 750px; }
+  .hamberger { display: none; }
+  .contact__btn {
+    display: inline-block;
+    float: right;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 800;
+  }
+  .work__bottom__txt {
+    padding: 0 10px;
+    font-size: 21px;
+    word-break: keep-all;
+  }
+  .footer__inner { padding: 0 10px; }
+}
+@media screen and (min-width: 1200px) {
+  .inner { width: 1170px; }
+  .ability { padding-bottom: 0; }
+  .grid { margin: 0 -15px; }
+  .grid__col {
+    display: inline-block;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .grid__col__5 { width: 41.666%; }
+  .grid__col__7 { width: 58.333%; }
+  .vt { vertical-align: top; }
+  .work__main { margin-top: 40px }
+  .grid__col__4 {
+    width: 33.3333%;
+    margin-bottom: 80px;
+  }
+  .work__bottom__btn {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 0;
+    margin-top: 0px;
+  }
+  .grid__col__3 {
+    width: 25%;
+    margin-top: 0;
+  }
+  .skill__title { margin-bottom: 50px; }
+  .social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social__link { padding: 0px 40px; }
+  .footer__inner {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
