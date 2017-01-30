@@ -18,13 +18,12 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 0;
+  padding: 15px;
   background-color: #fff;
   border-bottom: 1px solid #e7e7e7;
   z-index: 10;
 }
 .inner {
-  padding: 0 15px;
   margin: 0 auto;
   text-align: center;
 }
@@ -60,29 +59,34 @@ header {
 .contact__btn { display: none; }
 .js-area {
   display: none;
+  margin: 0 -15px;
   padding: 20px 15px;
   font-size: 16px;
+  font-weight: bold;
   background-color: #74cfae;
   color: #fff;
+  border-top: 1px solid #ccc;
 }
-.keyvisual { padding: 340px 0; }
-.keyvisual__inner { font-family: "Raleway"; }
+.keyvisual {
+  padding: 340px 0px 260px;
+  font-family: "Raleway";
+}
 .site__name {
   margin-bottom: 20px;
-  font-size: 90px;
+  font-size: 70px;
   color: #74cfae;
   letter-spacing: 3px;
   line-height: 1.1;
   font-weight: 700;
 }
 .site__name__sub {
-  font-size: 30px;
+  font-size: 25px;
   color: #c0c0c0;
   line-height: 1.1;
   font-weight: 400;
 }
 .ability {
-  padding: 50px 0 25px;
+  padding: 50px 15px 25px;
   background-color: #74cfae;
 }
 .ability__title {
@@ -109,9 +113,13 @@ header {
   width: 300px;
   margin: 0 auto;
 }
-.thumb__link { opacity: .7; }
+.thumb__link {
+  display: inline-block;
+  opacity: .7;
+}
 .thumb__link:hover { opacity: 1; }
 .mt40 { margin-top: 40px; }
+.work__bottom { padding: 0 15px; }
 .work__bottom__txt {
   letter-spacing: 1px;
   font-size: 16px;
@@ -151,7 +159,10 @@ header {
   font-weight: 400;
   font-family: "Lato";
 }
-.social { padding: 200px 15px; }
+.social {
+  width: 100%;
+  padding: 200px 15px;
+}
 .is-green {
   padding: 30px;
   font-size: 50px;
@@ -170,8 +181,11 @@ footer {
   font-family: "Lato";
 }
 .fa-heart { padding: 0 3px; }
-@media screen and (min-width: 768px) {
-  .inner { width: 750px; }
+@media screen and (min-width: 767px) {
+  .inner {
+    padding: 0 15px;
+    width: 750px;
+  }
   .hamberger { display: none; }
   .contact__btn {
     display: inline-block;
@@ -181,6 +195,8 @@ footer {
     line-height: 20px;
     font-weight: 800;
   }
+  .site__name { font-size: 80px; }
+  .site__name__sub { font-size: 30px; }
   .work__bottom__txt {
     padding: 0 10px;
     font-size: 21px;
@@ -188,8 +204,11 @@ footer {
   }
   .footer__inner { padding: 0 10px; }
 }
-@media screen and (min-width: 1200px) {
-  .inner { width: 1170px; }
+@media screen and (min-width: 1199px) {
+  .inner {
+    padding: 0 15px;
+    width: 1170px;
+  }
   .ability { padding-bottom: 0; }
   .grid { margin: 0 -15px; }
   .grid__col {

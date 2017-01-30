@@ -1,5 +1,6 @@
 $(function(){
-  $("#js-btn").on("click", "#js-btn", function(){
-    $(".js-area").slideToggle(slow/400/fast);
+  $("#js-btn").on("click",function(){
+    $(".js-area").css("display","block");
   });
 });
+
